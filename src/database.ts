@@ -1,4 +1,4 @@
-import { ACCOUNT_TYPE, TAccount } from "./types";
+import { ACCOUNT_TYPE, TAccount, TUsuarios } from "./types";
 
 export const accounts: TAccount[] = [
     {
@@ -18,5 +18,18 @@ export const accounts: TAccount[] = [
         ownerName: "Fulana",
         balance: 20000,
         type: ACCOUNT_TYPE.PLATINUM
+    }
+]
+
+export const users : TUsuarios[] = [
+    {
+        id: "01", 
+        name: "Maria",
+        age: 25
+    }, 
+    {
+        id: "02", 
+        name: "Fulano",
+        age: 45
     }
 ]
